@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+ 
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 45px;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    /* gap: 2px; */
+    justify-content: center;
+}
+
+.nav1 h3{
+    border: 1.5px solid black;
+    padding: 2px 15px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+.nav1 i{
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 1000px;
+}
+
+.nav2 h3{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.nav3 button{
+    background-color: #ffffff;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 3px 12px;
+    font-size: 16px;
+    font-weight: 450;
+    font-size: 14px;
+}
+
+.nav3 .sec_button{
+    background-color: orangered;
+    color: #ffffff;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    /* background-color:aqua; */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+    margin-top: 70px;
+}
+
+.para h3{
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0.5s;
+}
+
+#img1 {
+    transform: translate(-50%,-50%) rotate(-30deg) scale(1);
+    z-index: 1;
+}
+
+#img2 {
+    transform: translate(-50%,-50%) rotate(-20deg) scale(0.95);
+    z-index: 2;
+}
+
+#img3 {
+    transform: translate(-50%,-50%) rotate(-10deg) scale(0.90);
+    z-index: 3;
+}
+
+#img4 {
+    transform: translate(-50%,-50%) rotate(0deg) scale(0.85);
+    z-index: 4;
+}
+
+#img1:hover {
+    transform: translate(-50%,-50%) rotate(0deg) scale(1.1);
+    z-index: 5;
+}
+
+#img2:hover {
+    transform: translate(-50%,-50%) rotate(0deg) scale(1.1);
+    z-index: 5;
+}
+
+#img3:hover {
+    transform: translate(-50%,-50%) rotate(0deg) scale(1.1);
+    z-index: 5;
+}
+
+#img4:hover {
+    transform: translate(-50%,-50%) rotate(0deg) scale(1.1);
+    z-index: 5;
+}
+
+#btn-left{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#btn-right{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+#btn-right i{
+    font-size: 22px;
+    padding-left: 5px;
+}
+
