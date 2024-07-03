@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 html, body{
@@ -9,3 +10,145 @@ html, body{
     width: 100%;
 }
 
+.nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 45px 65px;
+}
+
+.nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+} 
+.nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    cursor: pointer;
+} 
+
+.nav h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content{
+    padding: 40px 65px;
+    margin-top: 40px;
+}
+
+.content h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.content h1{
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -2px;
+    margin-top: 30px;
+}
+
+.case{
+    padding: 40px 65px;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.case h5{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.line{
+    height: 1.5px;
+    width: 120px;
+    background-color: black;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 75px;
+    gap: 50px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(220, 228, 228, 0.783);
+    /* background-color: aqua; */
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img1{
+    background-image: url("https://cdn.sketch.com/logo/horizontal_onetrust_trans.png");
+    background-position: none !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img2{
+    background-image: url("https://blog.frame.io/wp-content/uploads/2022/10/B0523-featured-image-1.jpg");
+}
+
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+}
+
+.bottom h4{
+    font-family: 15px;
+    font-weight: 300;
+    color: rgba(23, 23, 23, 0.918);
+}
+
+.bottom i{
+    border: 1px solid black;
+    padding: 12px 23px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bottom i:hover{
+    color: white;
+    background-color: black;
+}
