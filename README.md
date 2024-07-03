@@ -1,1 +1,1 @@
-These projects are purely based on raw HTMl and CSS
+These projects are purely based on raw HTML and CSS
